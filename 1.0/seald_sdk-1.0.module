@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.seald",
+    "module": "seald_sdk",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seald_sdk-1.0.aar",
+          "url": "seald_sdk-1.0.aar",
+          "size": 6598,
+          "sha512": "00fba776da45761a687a0665a00e3eb53e58e7e55a5f7a9a56d13ebf272b1e4a39d872b23af42623c5cfa7e54c5330a5802472e3e61d43298a5f4c87480e1e8d",
+          "sha256": "52a09d6313ed5468a67c91aee824705f9317f25ab0939c0e04633d637bc16d3c",
+          "sha1": "5724ac4b02eaedd3856b59247c3bc51b7e8228ac",
+          "md5": "caedf24e8c27011fc9299e0b5a3b72d0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment-ktx",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui-ktx",
+          "version": {
+            "requires": "2.5.3"
+          }
+        },
+        {
+          "group": "seald_sdk",
+          "module": "goLibs",
+          "version": {
+            "requires": "unspecified"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seald_sdk-1.0.aar",
+          "url": "seald_sdk-1.0.aar",
+          "size": 6598,
+          "sha512": "00fba776da45761a687a0665a00e3eb53e58e7e55a5f7a9a56d13ebf272b1e4a39d872b23af42623c5cfa7e54c5330a5802472e3e61d43298a5f4c87480e1e8d",
+          "sha256": "52a09d6313ed5468a67c91aee824705f9317f25ab0939c0e04633d637bc16d3c",
+          "sha1": "5724ac4b02eaedd3856b59247c3bc51b7e8228ac",
+          "md5": "caedf24e8c27011fc9299e0b5a3b72d0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "seald_sdk-1.0-javadoc.jar",
+          "url": "seald_sdk-1.0-javadoc.jar",
+          "size": 283894,
+          "sha512": "3c99de79bfafbf8e0ea12e9868c8be7cb4d647fc15ac077c0ca5ba34ea41aef92ba2432fa1bab4e8a08eab91da1b572c294d9747c4d98a586b971c5849e70c5f",
+          "sha256": "1cf3aad38ac9827d599ca0f834c0e560ee303d2f58bfcfd9d3a71387a5bc5927",
+          "sha1": "206c19ebb978ffe0a888ac911cc33bf51c0015a8",
+          "md5": "e19b340059b0fa4c8244fa1b8ce258df"
+        }
+      ]
+    }
+  ]
+}
